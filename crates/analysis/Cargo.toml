@@ -1,0 +1,7 @@
+﻿[package]
+name = "ciphex-analysis"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+ciphex-core = { path = "../core" }

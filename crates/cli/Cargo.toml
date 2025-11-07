@@ -1,0 +1,17 @@
+﻿[package]
+name = "ciphex-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "ciphex"
+path = "src/main.rs"
+
+[dependencies]
+ciphex-core = { path = "../core" }
+ciphex-detectors = { path = "../detectors" }
+ciphex-analysis = { path = "../analysis" }
+anyhow.workspace = true
+clap.workspace = true
+colored.workspace = true
+serde_json.workspace = true
